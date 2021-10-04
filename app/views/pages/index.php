@@ -41,7 +41,7 @@
 <div style="margin-bottom: 15px; margin-left: 125px;">
   <img src='<?php echo URLROOT; ?>/img/top.png'/>
 </div>
-  <div class="row" style="display: flex; justify-content: center;">
+  <div class="row" style="display: flex; justify-content: center;margin-right:0px;">
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
