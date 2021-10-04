@@ -8,8 +8,8 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'http://localhost/PFR');
+  define('URLROOT', 'http://localhost/PFR-01');
   // Site Name
-  define('SITENAME', 'MBM');
+  define('SITENAME', 'MediShop');
   // App Version
   define('APPVERSION', '1.0.0');
