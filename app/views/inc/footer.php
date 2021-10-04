@@ -24,11 +24,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
+            <i class="fas fa-gem me-3"></i>Nom de la compagnie
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          MediShop est une plateforme qui permet aux clients de commander un produit parapharmaceutique sur Internet.
           </p>
         </div>
         <!-- Grid column -->
@@ -44,7 +43,7 @@
           <p><i class="fas fa-home me-3"></i> Youssoufia, NY 10012, MA</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
-            mbm@youcode.ma
+            MediShop@youcode.ma
           </p>
           <p><i class="fas fa-phone me-3"></i> + 5 23 56 88 99</p>
           <p><i class="fas fa-print me-3"></i> + 5 23 56 89 00</p>
@@ -59,7 +58,7 @@
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2021 Copyright:
-    <a class="text-reset fw-bold" href="<?php echo URLROOT; ?>">MBM.com</a>
+    <a class="text-reset fw-bold" href="<?php echo URLROOT; ?>">MediShop.com</a>
   </div>
   <!-- Copyright -->
 </footer>
