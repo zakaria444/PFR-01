@@ -45,7 +45,7 @@
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
-    <div class="title" style="    background-color:#FDFCE5;">
+    <div class="title" style="    background-color:#d1ecd7;">
     <img src="<?php echo URLROOT; ?>/img/96.jpg" style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;" >
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:13px;    color: #7b9c36;"  > LATTAFA OUD MOOD 100ML</h4>
      
@@ -61,7 +61,7 @@
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
-    <div class="title" style="    background-color:#FDFCE5;">
+    <div class="title" style="    background-color:#d1ecd7;">
     <img src="<?php echo URLROOT; ?>/img/97.jpg" style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;" >
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:13px;    color: #7b9c36;"  > NUXE COFFRET PRODIGIEUX FLORALE</h4>
      
@@ -77,7 +77,7 @@
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
-    <div class="title" style="    background-color:#FDFCE5;">
+    <div class="title" style="    background-color:#d1ecd7;">
     <img src="<?php echo URLROOT; ?>/img/98.jpg" style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;" >
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:13px;    color: #7b9c36;"  > PINGO COUCHES ÉCOLOGIQUES...</h4>
      
@@ -93,7 +93,7 @@
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
-    <div class="title" style="    background-color:#FDFCE5;">
+    <div class="title" style="    background-color:#d1ecd7;">
     <img src="<?php echo URLROOT; ?>/img/99.jpg" style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;" >
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:13px;    color: #7b9c36;"  > DAYLONG EXTREME SPF 50+...</h4>
      
@@ -109,7 +109,7 @@
   <div class=" w-40 col-2" >
     <div class="card card-body mb-3">
       <div class="cont" style="display:flex; ">
-    <div class="title" style="    background-color:#FDFCE5;">
+    <div class="title" style="    background-color:#d1ecd7;">
     <img src="<?php echo URLROOT; ?>/img/100.jpg" style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;" >
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:13px;    color: #7b9c36;"  > SVR DENSITIUM CRÈME 50ML +...</h4>
      
