@@ -3,12 +3,13 @@
 
 <?php flash('contact_message'); ?>
 <div class="d-flex justify-content-center" style="border: solid;">
-<img src="<?php echo URLROOT; ?>/img/1006.jpg" class="img-fluid" alt="Responsive image"style=" width: 90%;
-    height: 200px;">
+<img src="<?php echo URLROOT; ?>/img/93.jpg" class="img-fluid" alt="Responsive image"style=" width: 90%;
+    height: 300px;">
 </div>
+
 <div >
   <div>
-    <h1  style="margin:30px 0px 30px 0px" class="d-flex justify-content-center">Prodact</h1>
+    <h1  style="margin:30px 0px 30px 0px" class="d-flex justify-content-center">Produit</h1>
   </div>
   
 </div>
@@ -23,11 +24,11 @@
     <div  style="width:100%"  class="col-md-3 col-sm-6 item">
       <div style="width:100%; margin:30px;border:solid 1px;  border-radius:10px;padding: 20px;box-shadow: 10px 5px 5px #464848;"  class="card item-card card-block">
    
-    <div ><img src="data:image/png;base64,<?php echo $contact->img; ?> "  style="width:100%; "></div>  
-      <h4 class="card-title"   ><?php echo $contact->prod_name; ?></h4>
-      <h4 style="border:0.5px solid; width: 50%;background-color: #FFF5EB;text-align: center;"><?php echo $contact->prod_prix; ?>DH</h4>
+    <div ><img src="data:image/png;base64,<?php echo $contact->img; ?> "  style="margin-top: 30px;width: 60%; margin-left: 30px; border: 1px solid #dfe8ec;; "></div>  
+      <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:20px;    color: #7b9c36;"   ><?php echo $contact->prod_name; ?></h4>
+      <h4 style="width: 60%;background-color: #FFF5EB;text-align: center; margin-left: 30px;margin-top: 30px;font-size: 23px;font-family: 'FuturaMediumMedium';"><?php echo $contact->prod_prix; ?>DH</h4>
        
-        <a href="<?php echo URLROOT; ?>/contacts/showproduct/<?php echo $contact->id_product; ?>" class="btn btn-dark">More</a>
+        <a href="<?php echo URLROOT; ?>/contacts/showproduct/<?php echo $contact->id_product; ?>" class="btn btn-dark">Suite</a>
   </div>
     </div>
    

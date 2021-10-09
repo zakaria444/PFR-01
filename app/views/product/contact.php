@@ -8,7 +8,7 @@
 				
 				<div class="row  justify-content-center">
 					<div class="col-md-4 col-md-offset-1">
-						<h1>Contact MBM Here</h1>
+						<h1>Contact MediShop </h1>
 					</div>
           
 				</div>
@@ -29,7 +29,7 @@
 										<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
 									</div>
 									<div class="form-group">
-										<input type="submit" class="btn btn-primary btn-md" value="Send Message">
+										<input type="submit" class="btn btn-primary btn-md" value="Envoyer le message">
 									</div>
 								</div>
 								
