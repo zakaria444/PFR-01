@@ -50,27 +50,21 @@
 <div class="table-responsive">
 
 <table class="table">
-  <tr><th colspan="5"><h3>Order details</h3></th></tr>
+  <tr><th colspan="5"><h3>Détails de la commande</h3></th></tr>
   <tr>
-    <th width="40%">Product name</th>
-    <th width="10%">Quantity</th>
-    <th width="20%">Price</th>
+    <th width="40%">Nom du produit</th>
+    <th width="10%">Quantité</th>
+    <th width="20%">Prix</th>
     <th width="15%">Total</th>
     <th width="5%">Action</th>
 
   </tr>
   
   <?php
-
-
-
     
     $total = 0;
     foreach($_SESSION['shopping_cart']as $key=>$product):
-
    
-
-      
   ?>
  
   <tr>
@@ -80,7 +74,7 @@
     
     <td><?php echo number_format($product['quantity'] * $product['prix'], 2)?>Dh</td>
     <td>
-      <button class="btn-danger"><a style="text-decoration:none; color:black; " href="<?php echo URLROOT; ?>/contacts/remove/<?php echo $product['id']; ?>">Remove</a></button>
+      <button class="btn-danger"><a style="text-decoration:none; color:black; " href="<?php echo URLROOT; ?>/contacts/remove/<?php echo $product['id']; ?>">Supprimer</a></button>
     </td>
     <td>
     </td>
@@ -104,7 +98,7 @@ endforeach ?>
   <td colspan="5">
   <div class="d-grid gap-2 col-6 mx-auto" style="display: flex ;justify-content: center;">
   
-  <a href="<?php echo URLROOT; ?>/contacts/checkout/" type="button" class="btn btn-secondary">CHECKOUT</a>
+  <a href="<?php echo URLROOT; ?>/contacts/checkout/" type="button" class="btn btn-secondary">Commander</a>
 </div>
   
  
