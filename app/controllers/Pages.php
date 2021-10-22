@@ -7,7 +7,7 @@
     
     public function index(){
       if(isLoggedIn()){
-        redirect('contacts/store');
+        redirect('produits/store');
       }
 
       $data = [

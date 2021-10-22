@@ -1,4 +1,4 @@
-<?php
+ <?php
   /*
    * App Core Class
    * Creates URL & loads core controller
@@ -15,6 +15,7 @@
       $url = $this->getUrl();
       // Look in controllers for first value
       if(isset($url[0]) && file_exists('../app/controllers/' . ucwords($url[0]). '.php')){
+        //ucwords  capitalized
         // If exists, set as controller
         $this->currentController = ucwords($url[0]);
         // Unset 0 Index
@@ -38,7 +39,7 @@
       }
       
       // Get params
-      $this->params = $url ? array_values($url) : [];
+      $this->params = $url ? array_values($url) : [];//ternary operator
 
       // Call a callback with array of params
       call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
@@ -46,9 +47,9 @@
 
     public function getUrl(){
       if(isset($_GET['url'])){
-        $url = rtrim($_GET['url'], '/');
+        $url = rtrim($_GET['url'], '/');//suprime /
         $url = filter_var($url, FILTER_SANITIZE_URL);
-        $url = explode('/', $url);
+        $url = explode('/', $url);// taQsim url for array 0 1
         return $url;
       }
     }

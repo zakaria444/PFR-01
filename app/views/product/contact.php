@@ -14,7 +14,7 @@
 				</div>
         <br /><br />
         
-				<form action="<?php echo URLROOT; ?>/contacts/contactme" method="POST" class="d-flex justify-content-center">
+				<form action="<?php echo URLROOT; ?>/Produits/contactme" method="POST" class="d-flex justify-content-center">
 					<div class="row" style="border: 1px solid; width:50%;justify-content: center;margin: 20px;background-color: cornsilk;">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="row" style="margin: 20px;">

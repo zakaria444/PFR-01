@@ -11,6 +11,7 @@
 
       // Instatiate model
       return new $model();
+      //call back function
     }
 
     // Load view

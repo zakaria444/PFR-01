@@ -28,7 +28,7 @@
       <h4 class="card-title" style="margin-top: 30px;margin-left: 30px;font-size:20px;    color: #7b9c36;"   ><?php echo $contact->prod_name; ?></h4>
       <h4 style="width: 60%;background-color: #FFF5EB;text-align: center; margin-left: 30px;margin-top: 30px;font-size: 23px;font-family: 'FuturaMediumMedium';"><?php echo $contact->prod_prix; ?>DH</h4>
        
-        <a href="<?php echo URLROOT; ?>/contacts/showproduct/<?php echo $contact->id_product; ?>" class="btn btn-dark">Suite</a>
+        <a href="<?php echo URLROOT; ?>/Produits/showproduct/<?php echo $contact->id_product; ?>" class="btn btn-dark">Suite</a>
   </div>
     </div>
    
@@ -74,7 +74,7 @@
     
     <td><?php echo number_format($product['quantity'] * $product['prix'], 2)?>Dh</td>
     <td>
-      <button class="btn-danger"><a style="text-decoration:none; color:black; " href="<?php echo URLROOT; ?>/contacts/remove/<?php echo $product['id']; ?>">Supprimer</a></button>
+      <button class="btn-danger"><a style="text-decoration:none; color:black; " href="<?php echo URLROOT; ?>/Produits/remove/<?php echo $product['id']; ?>">Supprimer</a></button>
     </td>
     <td>
     </td>
@@ -98,7 +98,7 @@ endforeach ?>
   <td colspan="5">
   <div class="d-grid gap-2 col-6 mx-auto" style="display: flex ;justify-content: center;">
   
-  <a href="<?php echo URLROOT; ?>/contacts/checkout/" type="button" class="btn btn-secondary">Commander</a>
+  <a href="<?php echo URLROOT; ?>/Produits/checkout/" type="button" class="btn btn-secondary">Commander</a>
 </div>
   
  
