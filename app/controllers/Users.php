@@ -14,7 +14,7 @@
 
         // Init data
         $data =[
-          'name' => trim($_POST['name']),
+          'name_user' => trim($_POST['name_user']),
           'email' => trim($_POST['email']),
           'password' => trim($_POST['password']),
           'ADRESS' => trim($_POST['ADRESS']),
@@ -37,7 +37,7 @@
         }
 
         // Validate Name
-        if(empty($data['name'])){
+        if(empty($data['name_user'])){
           $data['name_err'] = 'Pleae enter name';
         }
         // Validate num

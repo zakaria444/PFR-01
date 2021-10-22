@@ -7,7 +7,7 @@
         <form action="<?php echo URLROOT; ?>/users/register" method="post">
           <div class="form-group">
             <label for="name">Nom: <sup>*</sup></label>
-            <input type="text" name="name_user" class="form-control form-control-lg <?php echo (!empty($data['name_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['name']; ?>">
+            <input type="text" name="name_user" class="form-control form-control-lg <?php echo (!empty($data['name_err'])) ? 'is-invalid' : ''; ?>" value="<?php  ?>">
             <span class="invalid-feedback"><?php echo $data['name_err']; ?></span>
           </div>
           <div class="form-group">
