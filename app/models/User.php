@@ -28,7 +28,7 @@
     }
 
     // Login User
-    public function login($email, $password){
+    public function login($email,$password){
       $this->db->query('SELECT * FROM users WHERE email = :email');
       $this->db->bind(':email', $email);
 
@@ -37,7 +37,7 @@
       $hashed_password = $row->password;
      
       // die(password_verify($password, $hashed_password));
-      if(true){
+      if(password_verify($password,$hashed_password)){
         return $row;
       } else {
         return false;
@@ -50,7 +50,7 @@
       // Bind value
       $this->db->bind(':email', $email);
 
-      $row = $this->db->single();
+       $this->db->single();
 
       // Check row
       if($this->db->rowCount() > 0){
