@@ -11,7 +11,6 @@
         
   <form action="<?php echo URLROOT; ?>/users/login" method="post" class="login-admin d-flex justify-content-center" >
 <div class="login ">
-<?php flash('register_success'); ?>
             <div class="container-xl">
                 <div id="login-row" class="row justify-content-center align-items-center">
                     <div id="login-column" class="col-md-12">
@@ -35,9 +34,12 @@
                                 </div>
                                 
                             </form>
+                            
                             </div>
                           </div>
                         </div>
+            </div>
+            
   
   
   
