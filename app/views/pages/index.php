@@ -1,39 +1,7 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
   <div class="jumbotron jumbotron-flud text-center" style="height: 540px;">
-     <script>
-	var i = 0; // Start point
-	var images = [];
-	var time = 3000;
-
-	// Image List
-	images[0] = '<?php echo URLROOT; ?>../public/img/90.jpg';
-	images[1] = '<?php echo URLROOT; ?>../public/img/91.jpg';
-	images[2] = '<?php echo URLROOT; ?>/img/92.jpg';
-	images[3] = '<?php echo URLROOT; ?>/img/93.jpg';
-  images[4] = '<?php echo URLROOT; ?>/img/94.jpg';
-  images[5] = '<?php echo URLROOT; ?>/img/95.jpg';
-
-	// Change Image
-	function changeImg(){
-		document.slide.src = images[i];
-    
-
-		if(i < images.length - 1){
-			i++;
-		} else {
-			i = 0;
-		}
-
-		setTimeout("changeImg()", time);
-	}
-
-	window.onload = changeImg;
-
-</script>
-    
- 
-
-<img name="slide" width="1000" height="450">
+   
+<img name="slide" width="1000" height="450" src="<?php echo URLROOT; ?>/img/90.jpg">
    
     </div>
   </div> 
@@ -54,7 +22,7 @@
       </div>
       <div class="bg-light p-2 mb-3">
       </div>
-      <a href="<?php echo URLROOT; ?>/contacts/show/" class="btn btn-dark">aller au magasin</a>
+      <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark">aller au magasin</a>
     </div>
     
   </div>
@@ -70,7 +38,7 @@
       </div>
       <div class="bg-light p-2 mb-3">
       </div>
-      <a href="<?php echo URLROOT; ?>/contacts/show/" class="btn btn-dark">aller au magasin</a>
+      <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark">aller au magasin</a>
     </div>
     
   </div>
@@ -86,7 +54,7 @@
       </div>
       <div class="bg-light p-2 mb-3">
       </div>
-      <a href="<?php echo URLROOT; ?>/contacts/show/" class="btn btn-dark">aller au magasin</a>
+      <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark">aller au magasin</a>
     </div>
     
   </div>
@@ -102,7 +70,7 @@
       </div>
       <div class="bg-light p-2 mb-3">
       </div>
-      <a href="<?php echo URLROOT; ?>/contacts/show/" class="btn btn-dark">aller au magasin</a>
+      <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark">aller au magasin</a>
     </div>
     
   </div>
@@ -118,7 +86,7 @@
       </div>
       <div class="bg-light p-2 mb-3">
       </div>
-      <a href="<?php echo URLROOT; ?>/contacts/show/" class="btn btn-dark">aller au magasin</a>
+      <a href="<?php echo URLROOT; ?>/users/login" class="btn btn-dark">aller au magasin</a>
     </div>
     
   </div>

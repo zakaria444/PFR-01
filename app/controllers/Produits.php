@@ -78,10 +78,10 @@
         if(empty($data['prod_name_err']) && empty($data['prod_details_err'])&& empty($data['prod_prix_err'])&& empty($data['prod_title_err'])){
           // Validated
           if($this->produitModel->addProduits($data)){
-            flash('contact_message', 'Product Added');
+            flash('contact_message', 'Produit ajouté avec succès');
             redirect('Produits');
           } else {
-            die('Something went wrong');
+            die('Quelque chose s est mal passé');
           }
         } else {
           // Load view with errors
@@ -137,10 +137,10 @@
         if(empty($data['prod_name_err']) && empty($data['prod_details_err']) && empty($data['prod_prix_err'])&& empty($data['prod_title_err'])){
           // Validated
           if($this->produitModel->updateProduits($data)){
-            flash('contact_message', 'Product Updated');
+            flash('contact_message', 'Modifié avec succès');
             redirect('produits');
           } else {
-            die('Something went wrong');
+            die('Quelque chose s est mal passé');
           }
         } else {
           // Load view with errors
@@ -203,10 +203,10 @@
         
 
         if($this->produitModel->deleteProduits($id)){
-          flash('contact_message', 'Product Removed');
+          flash('contact_message', 'Produit supprimé');
           redirect('produits');
         } else {
-          die('Something went wrong');
+          die('Quelque chose s est mal passé');
         }
       } else {
         redirect('produits');
@@ -225,7 +225,7 @@
       if($id == $product['id']){
         //remove product from the shopping cart when it matches with the GET  id
       unset($_SESSION["shopping_cart"][$key]);
-      flash('contact_message', 'Remove product cart');
+      flash('contact_message', 'Supprimer le panier de produits');
       redirect('produits/store');
     }
   }
@@ -244,10 +244,10 @@
       ];
    
       if($this->produitModel->checkout($data)){
-        flash('contact_message', 'thnx for order');
+        flash('contact_message', 'La commande a été envoyée');
         redirect('produits/store');
       } else {
-        die('Something went wrong');
+        die('Quelque chose s est mal passé');
       
     } }
 
@@ -288,10 +288,10 @@
 
       if(empty($data['sujet_err']) && empty($data['message_err'])){
         if($this->produitModel->ContactMe($data)){
-          flash('contact_message', 'Mesage Added');
+          flash('contact_message', 'message envoyé');
           redirect('product/contact');
         } else {
-          die('Something went wrong');
+          die('Quelque chose s est mal passé');
         }
       } else {
         // Load view with errors
@@ -320,10 +320,10 @@
         
   
         if($this->produitModel->deletemsg($id)){
-          flash('contact_message', 'Message Removed');
+          flash('contact_message', 'Message supprimé');
           redirect('produits/message');
         } else {
-          die('Something went wrong');
+          die('Quelque chose s est mal passé');
         }
       } else {
         die("something is off");
@@ -340,10 +340,10 @@
       
 
       if($this->produitModel->deletecom($id)){
-        flash('contact_message', 'Commande Removed');
+        flash('contact_message', 'Commande supprimé');
         redirect('produits/commande');
       } else {
-        die('Something went wrong');
+        die('Quelque chose s est mal passé');
       }
     } else {
       die("something is off");
@@ -408,7 +408,7 @@
 
       }
     }
-    flash('contact_message', 'Add to cart');
+    flash('contact_message', 'Ajouter au panier');
     redirect('Produits/store');
 echo "<pre>" ;
  var_dump($_SESSION);

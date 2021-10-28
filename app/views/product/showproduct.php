@@ -23,7 +23,7 @@
  
 
 
-    <input type="submit" name="add-to-cart"  value="add to cart" class="btn btn-danger">
+    <input type="submit" name="add-to-cart"  value="Ajouter au panier" class="btn btn-danger">
   </form>
   
 </div>

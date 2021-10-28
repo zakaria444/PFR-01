@@ -9,13 +9,13 @@
   
   
   <div class="col-md-6" >
-    <a href="<?php echo URLROOT; ?>/Produits/add" style="margin: 5px;"  class="btn btn-primary pull-right">
+    <a href="<?php echo URLROOT; ?>/Produits/add" style="margin: 5px;"  class="btn btn-success pull-right">
       <i class="fa fa-pencil " ></i> Ajouter un produit
     </a>
-    <a href="<?php echo URLROOT; ?>/Produits/commande" style="margin: 5px;" class="btn btn-primary pull-right">
+    <a href="<?php echo URLROOT; ?>/Produits/commande" style="margin: 5px;" class="btn btn-success pull-right">
       <i class="fa fa-pencil " ></i> Voir demande
     </a>
-    <a href="<?php echo URLROOT; ?>/Produits/message" style="margin: 5px;" class="btn btn-primary pull-right">
+    <a href="<?php echo URLROOT; ?>/Produits/message" style="margin: 5px;" class="btn btn-success pull-right">
       <i class="fa fa-pencil " ></i> Voir messages
     </a>
     
